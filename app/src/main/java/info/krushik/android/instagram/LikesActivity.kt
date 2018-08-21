@@ -3,9 +3,8 @@ package info.krushik.android.instagram
 import android.os.Bundle
 import android.util.Log
 
-class HomeActivity : BaseActivity(0) {
-    private val TAG = "HomeActivity"
-
+class LikesActivity : BaseActivity(3) {
+    private val TAG = "LikesActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -13,6 +12,5 @@ class HomeActivity : BaseActivity(0) {
 
         Log.d(TAG, "onCreate")
         setupBottomNavigation()
-
     }
 }
